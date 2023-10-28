@@ -16,9 +16,26 @@ body, input {
     font-family: 'Source Serif 4', serif;
 }
 
+img {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 4.0rem;
+}
+
 main {
     margin: 5.0rem auto;
-    width: 35.0rem;
+    padding: 0 3rem 0 3rem;
+    max-width: 35.0rem;
+
+    box-sizing: content-box;
+}
+
+
+section#therecipe {
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -36,8 +53,13 @@ section#how2do, h2 {
     font-weight: 700;
 }
 
-section#therecipe {
-    margin-bottom: 2.5rem;
+
+div#stuff {
+    margin-bottom: 3.5rem;
+}
+
+ul, ol {
+    padding-left: 3.2rem;
 }
 
 section ul li, section ol li {
@@ -52,7 +74,7 @@ button {
     font-size: 1.1rem;
     font-weight: 500;
     line-height: 1.7rem;
-    padding: 0.7rem;
-    width: 9.4rem;
+    padding: 0.8rem 1.2rem;
     margin-top: 1.7rem;
+    border: 0;
 }
