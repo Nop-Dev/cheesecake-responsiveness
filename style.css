@@ -78,3 +78,24 @@ button {
     margin-top: 1.7rem;
     border: 0;
 }
+
+@media (min-width: 850px) {
+    main {
+        display: flex;
+        max-width: 95.0rem;
+        gap: 15rem;
+        margin: 60px auto;
+    }
+
+    section#therecipe {
+        max-width: 38.0rem;
+    }
+
+    section#how2do {
+        max-width: 525px;
+    }
+
+    button {
+        margin-top: 3rem;
+    }
+}
